@@ -348,8 +348,8 @@ def PE_exp(e,value_env):
                 else:
                     result.children[1] = index
                     return (result,True)        
-          case _:
-            raise  Exception(f"evaluate_exp: {rule} not implemented")        
+            case _:
+                raise  Exception(f"evaluate_exp: {rule} not implemented")        
     except:        
         raise Exception(f"Error evaluating exp-node with rule {rule} for node {showcq_exp(result)}") 
 
