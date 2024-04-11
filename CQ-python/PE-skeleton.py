@@ -183,7 +183,8 @@ def PE_declaration(d,value_env):
     match(rule):
       #####################################################
       ########### YOUR IMPLEMENTATION GOES HERE ###########     
-      #####################################################            
+      #####################################################     
+               
         case _:
             raise Exception(f"Unrecognized rule {rule} in declaration-node {showcq_declaration(d)}")
     
